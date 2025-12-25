@@ -37,13 +37,13 @@ dependencies = [
   "httpx[http2]",
   "packaging",
   "pydantic-settings",
-  "pydantic",
+  "pydantic>=2.11.0",
   "python-dotenv",
   "python-multipart",
   "pyyaml",
   "rich",
   "typer",
-  "typing-extensions",
+  "typing-extensions>=4.15.0",
 ]
 
 [project.optional-dependencies]
@@ -57,10 +57,10 @@ dev = [
   "timeout-decorator",
   "types-pyyaml",
   "types-aiofiles",
-  "fastapi",
+  "fastapi>=0.100.0",
   "uvicorn",
   "PyJWT",
-  "mcp",
+  "mcp>=1.16.0",
   "openai",
   "fakeredis",
 ]
